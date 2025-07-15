@@ -1,0 +1,77 @@
+/* Rule 1 */
+body{
+    background-color: white;
+    text-align: center;
+    font-family: Arial, sans-serif; 
+}
+
+/* Rule 2 */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+/* Rule 3 */
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+/* Rule 4 */
+button {
+    background-color: #e10000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Rule 5 */
+button:hover {
+    background-color: #962929;
+}
+
+/* Rule 6 */
+#validation { 
+    font-size: 0.9em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Rule 7 */
+#display { 
+    margin-top: 30px;
+    padding: 30px;
+    border: 1px dashed #e10000;
+    background-color: white;
+}
+
+/* Rule 8 */
+#display strong { 
+    color: #333;
+}
+
+/* Rule 9 */
+hr { 
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Rule 10 */
+img {
+    width: 400px;
+    height: auto;
+}
+
+/* Rule 11 */
+.cutive-mono-regular {
+  font-family: "Cutive Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
