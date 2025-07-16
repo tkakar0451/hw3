@@ -41,7 +41,7 @@ function validateInput() {
         if (isNaN(numberOfBooks)) {
             validation.innerHTML = "<strong>Please enter a valid input. Numbers only.</strong>";
             isValid = false;
-        } else if (numberOfBooks === 0) {
+        } else if (numberOfBooks <= 0) {
             validation.innerHTML = "<strong>Enter a number greater than 0.</strong>";
             isValid = false;
         } else if (numberOfBooks > 5) {
